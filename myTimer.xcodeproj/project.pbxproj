@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC670C961B8C0EF800FBB51C /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC670C951B8C0EF800FBB51C /* ButtonTap.wav */; };
+		EC670C981B8C0F1B00FBB51C /* HallOfTheMountainKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC670C971B8C0F1B00FBB51C /* HallOfTheMountainKing.mp3 */; };
+		EC670C9A1B8C0F2500FBB51C /* SecondBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = EC670C991B8C0F2500FBB51C /* SecondBeep.wav */; };
 		EC6AE3F71B88EE740063DEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6AE3F61B88EE740063DEE2 /* AppDelegate.swift */; };
 		EC6AE3F91B88EE740063DEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6AE3F81B88EE740063DEE2 /* ViewController.swift */; };
 		EC6AE3FC1B88EE740063DEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6AE3FA1B88EE740063DEE2 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC670C951B8C0EF800FBB51C /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ButtonTap.wav; path = Sounds/ButtonTap.wav; sourceTree = "<group>"; };
+		EC670C971B8C0F1B00FBB51C /* HallOfTheMountainKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HallOfTheMountainKing.mp3; path = Sounds/HallOfTheMountainKing.mp3; sourceTree = "<group>"; };
+		EC670C991B8C0F2500FBB51C /* SecondBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SecondBeep.wav; path = Sounds/SecondBeep.wav; sourceTree = "<group>"; };
 		EC6AE3F11B88EE740063DEE2 /* myTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6AE3F51B88EE740063DEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6AE3F61B88EE740063DEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 		EC6AE3F41B88EE740063DEE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC670C991B8C0F2500FBB51C /* SecondBeep.wav */,
+				EC670C971B8C0F1B00FBB51C /* HallOfTheMountainKing.mp3 */,
+				EC670C951B8C0EF800FBB51C /* ButtonTap.wav */,
 				EC6AE3F51B88EE740063DEE2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC670C9A1B8C0F2500FBB51C /* SecondBeep.wav in Resources */,
 				EC6AE3FC1B88EE740063DEE2 /* Main.storyboard in Resources */,
 				EC6AE4011B88EE740063DEE2 /* LaunchScreen.xib in Resources */,
+				EC670C961B8C0EF800FBB51C /* ButtonTap.wav in Resources */,
 				EC6AE3FE1B88EE740063DEE2 /* Images.xcassets in Resources */,
+				EC670C981B8C0F1B00FBB51C /* HallOfTheMountainKing.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				EC6AE4121B88EE740063DEE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC6AE4131B88EE740063DEE2 /* Build configuration list for PBXNativeTarget "myTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				EC6AE4151B88EE740063DEE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
