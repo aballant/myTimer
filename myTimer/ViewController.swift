@@ -37,7 +37,6 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         return audioPlayer!
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -47,7 +46,6 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         backgroundMusic = self.setupAudioPlayerWithFile("HallOfTheMountainKing", type:"mp3")
          
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -67,15 +65,13 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
     func updateTimer(){
         myLabel.text = String(--counter);
         NSLog("started playing")
-  buttonBeep.play()
+        buttonBeep.play()
         if counter == 0 {
             myLabel.text = "All Done"
             counter = startCount
             timer.invalidate()
              buttonBeep.play()
         }
-        
-        
     }
     
     @IBAction func myPauseButton(sender: AnyObject) {
