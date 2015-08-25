@@ -45,7 +45,7 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
         buttonBeep = self.setupAudioPlayerWithFile("ButtonTap", type:"wav")
         secondBeep = self.setupAudioPlayerWithFile("SecondBeep", type:"wav")
         backgroundMusic = self.setupAudioPlayerWithFile("HallOfTheMountainKing", type:"mp3")
-        
+         
     }
     
     
